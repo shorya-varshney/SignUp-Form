@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 589px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hotpink;
+}
+
+.form-box{
+  height: 500px;
+  width: 390px;
+  padding: 12px 100px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+h1{
+  color: green;
+  font-size: 2.6rem;
+  margin: 15px auto 5px 26px;
+}
+
+.underline{
+  height: 5.7px;
+  width: 45px;
+  margin: 7px auto 5px 68px;
+  border-radius: 10px;
+  background-color: green;
+  transition: transform 0.5s;
+}
+
+.input-group{
+  height: 270px;
+  width: 320px;
+  margin: 19px 0px 5px -66px;
+}
+
+.input-field{
+  height: 43px;
+  width: 930px;
+  margin: 15px 0px 3px 0px;
+  display: flex;
+}
+
+i{
+  margin-top: 8px;
+  padding-right: 15px;
+  font-size: 16px;
+}
+
+.input-field input{
+  width: 270px;
+  font-size: 1.2rem;
+  height: 39px;
+  margin-left: 5px;
+  border: none;
+  padding-left: 9px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+p{
+  margin: 25px 0px 0px 25px;
+  font-size: 1.1rem;
+}
+
+p a{
+  text-decoration: none;
+}
+
+.btn{
+  margin: 20px 0px 0px -40px;
+  height: 69px;
+  width: 280px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.Sign-Up{
+  height: 47px;
+  width: 120px;
+  border-radius: 30px;
+  border: none;
+  background-color: green;
+  color: white;
+  font-size: 1.1rem;
+  transition: 1s;
+}
+
+.Sign-Up.disable{
+  background: #eaeaea;
+  color: #555;
+}
+
+.Sign-Up:hover{
+  cursor: pointer;
+}
+
+.Sign-In{
+  height: 47px;
+  width: 120px;
+  border-radius: 30px;
+  border: none;
+  background-color: #eaeaea;
+  color: #444040;
+  margin-left: 25px;
+  font-size: 1.1rem;
+}
+
+.Sign-In.disable{
+  background: green;
+  color: white;
+  transition: 0.9s;
+}
+
+.Sign-In:hover{
+  cursor: pointer;
+}
+ 

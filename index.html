@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <h1 class="title">Sign Up</h1>
+        <div class="underline"></div>
+        <div class="input-group">
+          <div class="input-field" id="namebox">
+            <i class="fa-solid fa-user">
+              <input type="text" placeholder="Name" class="name" style="width: 290px;"/>
+            </i>
+          </div>
+
+          <div class="input-field">
+            <i class="fa-solid fa-at">
+              <input type="email" placeholder="Email" class="email" style="width: 290px;"/>
+            </i>
+          </div>
+
+          <div class="input-field">
+            <i class="fa-solid fa-lock">
+              <input type="password" placeholder="Password" class="password" style="width: 290px;"/>
+            </i>
+          </div>
+
+          <div class="input-field" id="confirmbox">
+            <i class="fa-solid fa-lock">
+              <input type="password" placeholder="Confirm Password" class="confirm-password" style="width: 290px;"/>
+            </i>
+          </div>
+
+          <p class="forgot-password" style="display: none;">Password Forget ? <a href="">Click Here</a></p>
+          <p class="account">Already have an account? <a href="#" class="signinlink">Sign In</a> </p>
+        </div>
+
+        <div class="btn">
+          <button class="Sign-Up">Sign Up</button>
+          <button class="Sign-In">Sign In</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
